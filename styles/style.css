@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 /* font-family: "Open Sans", sans-serif; */
-
 body{
     font-family: "Open Sans", sans-serif;
 }
@@ -16,7 +15,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
 }
 .nav-title{
     font-weight: 800;
@@ -133,4 +132,64 @@ main section{
 .skill-description{
     color: #757575;
     font-size: 16;
+}
+/* resume style */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description{
+    color: #757575;
+}
+.experience-sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.download-cv{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* footer style */
+.footer{
+    display: flex;
+    padding: 130px 230px;
+    background-color: #FFF8F3;
+    gap: 100px;
+}
+.footer-icone{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer input[type="text"],.footer input[type="email"]{
+    
+    width: 250px;
+    height: 10px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    border-radius: 5px;
+    margin: 24px 24px 24px 0px;
+    padding: 18px 30px;
+    
+}
+.footer .text-area{
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    border-radius: 5px;
+    margin: 24px 24px 24px 0px;
+    padding: 18px 30px;
 }
