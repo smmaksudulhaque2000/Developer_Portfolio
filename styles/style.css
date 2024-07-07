@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 /* font-family: "Open Sans", sans-serif; */
 
+body{
+    font-family: "Open Sans", sans-serif;
+}
 /* header Style */
-.header{
+
+header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
-    
-}
-body{
-    font-family: "Open Sans", sans-serif;
+    background-color: #FFF8F3;
 }
 nav{
     display: flex;
@@ -70,4 +71,66 @@ nav ul li a{
 }
 .banner-content{
     max-width: 580px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* About Style */
+.about{
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    max-width: 909px;
+    margin: 30px auto 50px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.about-title{
+    color: #181818;
+    margin-bottom: 5px;
+}
+.about-description{
+    font-weight: bold;
+    color: #474747;
+    margin-top: 5px;
+}
+/* skills Style */
+    
+.skill{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    border-radius: 5px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill-title{
+    color: #181818;
+
+}
+.skill-description{
+    color: #757575;
+    font-size: 16;
 }
